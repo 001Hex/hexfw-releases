@@ -6,14 +6,14 @@
 
 <p align="center">
   <a href="https://hex-modifications.github.io/flipper/#download"><img src="https://img.shields.io/badge/install-in%20your%20browser-ff3e9a?style=for-the-badge&labelColor=0b0b2b" alt="Install in your browser"></a>
-  <a href="https://github.com/001Hex/hexfw-releases/releases"><img src="https://img.shields.io/github/v/release/001Hex/hexfw-releases?include_prereleases&label=download&style=for-the-badge&color=8a2be2&labelColor=0b0b2b" alt="Latest release"></a>
+  <a href="downloads/v0.1.0-beta.1"><img src="https://img.shields.io/badge/download-v0.1.0--beta.1-8a2be2?style=for-the-badge&labelColor=0b0b2b" alt="Download v0.1.0-beta.1"></a>
   <img src="https://img.shields.io/badge/Flipper%20Zero-f7-ff8c42?style=for-the-badge&labelColor=0b0b2b" alt="Flipper Zero f7">
-  <img src="https://img.shields.io/github/downloads/001Hex/hexfw-releases/total?style=for-the-badge&color=3ef7ff&labelColor=0b0b2b&label=downloads" alt="Downloads">
+  <img src="https://img.shields.io/badge/API-88.x%20compatible-3ef7ff?style=for-the-badge&labelColor=0b0b2b" alt="Official app API compatible">
 </p>
 
 <p align="center">
   <a href="https://hex-modifications.github.io/flipper/#download"><b>⚡ Install</b></a> ·
-  <a href="https://github.com/001Hex/hexfw-releases/releases"><b>⬇ Download</b></a> ·
+  <a href="downloads/v0.1.0-beta.1"><b>⬇ Download</b></a> ·
   <a href="https://hex-modifications.github.io/flipper/">Website</a> ·
   <a href="#install">Install guide</a> ·
   <a href="#faq">FAQ</a> ·
@@ -54,13 +54,13 @@ Install it from your browser in about two minutes: plug in your Flipper, press *
 
 **2. With Flipper Lab.** Press **Install with Flipper Lab** on the same page. It opens lab.flipper.net with HexFW preselected.
 
-**3. With qFlipper.** Download `flipper-z-f7-update-<version>.tgz` from [Releases](https://github.com/001Hex/hexfw-releases/releases), open qFlipper, connect your Flipper and choose **Install from file**.
+**3. With qFlipper.** Download `flipper-z-f7-update-<version>.tgz` from [the downloads folder](downloads/v0.1.0-beta.1) (click the file, then **Download raw file**), open qFlipper, connect your Flipper and choose **Install from file**.
 
 **4. From the SD card.** Extract the `.tgz` and copy the `f7-update-<version>` folder to `/update` on the SD card. On the Flipper, open **Archive**, go to that folder, select `update` and choose **Run in App**.
 
 ### Verify your download
 
-Every release includes `SHA256SUMS`. Compare it with:
+Every release folder includes `SHA256SUMS`. Compare it with:
 
 ```bash
 shasum -a 256 flipper-z-f7-update-*.tgz          # macOS
