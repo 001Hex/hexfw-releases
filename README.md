@@ -17,6 +17,7 @@
   <a href="https://hex-modifications.github.io/flipper/">Website</a> ·
   <a href="#install">Install guide</a> ·
   <a href="#faq">FAQ</a> ·
+  <a href="https://hex-modifications.github.io/flipper/#pro"><b>✦ Pro</b></a> ·
   <a href="#support-hexfw">Donate</a> ·
   <a href="https://github.com/001Hex/hexfw-releases/issues">Report a problem</a>
 </p>
@@ -89,6 +90,14 @@ The web installer does this check for you automatically.
 **Does HexFW unlock extra radio frequencies?** No. HexFW keeps the official regional transmit limits. Use radio features legally and only on devices you own or are authorised to test.
 
 **Is this made by Flipper Devices?** No. HexFW is an independent project by Hex Modifications, built on the official Flipper Zero firmware, and is not affiliated with or endorsed by Flipper Devices Inc.
+
+## HexFW Pro
+
+<p align="center"><a href="https://hex-modifications.github.io/flipper/#pro"><img src="https://img.shields.io/badge/HexFW%20Pro-%C2%A310%20%C2%B7%20coming%20soon-b967ff?style=for-the-badge&labelColor=06021a" alt="HexFW Pro, £10, coming soon"></a></p>
+
+**HexFW Pro** adds a toolkit of practical apps you won't find on any other Flipper: **Logic Lab** (a 4-channel logic analyser with I²C, SPI and UART decoding), **Signal Vault** (organise and PIN-encrypt your saved signals), a **Sensor Dashboard** with live graphs and CSV logging, **Routines**, a receive-only **Spectrum Scope**, **Remote Studio**, **Battery Lab** and **Theme Studio**. It's £10 one-off, one licence per Flipper, installed in one click from the website. HexFW itself stays free.
+
+**[See HexFW Pro →](https://hex-modifications.github.io/flipper/#pro)**
 
 ## Support HexFW
 
